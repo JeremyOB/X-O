@@ -1,0 +1,58 @@
+h1 {
+
+	text-align: center;
+	font-size: 40px;
+}
+
+p { 
+
+  font-size: 30px;
+  color: red;
+  text-align: center;
+
+}
+/*Box Style*/
+.box-container {
+
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	font-size: 120px;
+	text-align: center;
+}
+
+.box-style {
+
+	height: 33.3%;
+	width: 33.3%; 
+	float: left;
+	outline: 1px solid;
+}
+
+.box-style:hover {
+
+	background-color: #999999;
+}
+
+/*Box formattin
+*/
+
+
+
+
+/*
+box condition  
+*/
+
+.empty_1:before{
+content: "-";
+  }
+
+ .X:before{
+content: "X";
+
+  }
+
+  .O:before {
+content: "O";
+  }
