@@ -34,15 +34,6 @@ p {
 	background-color: #999999;
 }
 
-/*Box formattin
-*/
-
-
-
-
-/*
-box condition  
-*/
 
 .empty_1:before{
 content: "-";
