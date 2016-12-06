@@ -27,10 +27,11 @@ function makeX(){
 
     console.log("js linked") // show if the page has loaded the .js file
 
-
-// var allElements = document.getElementsByTagName("*");
-// var allIds = [];
-// for (var i = 0, n = allElements.length; i < n; ++i) {
-//   var el = allElements[i];
-//   if (el.id) { allIds.push(el.id); }
-// }
+//working on enumeration here..,
+ var allElements = document.getElementsByTagName("*");
+ var allIds = [];
+for (var i = 0, n = allElements.length; i < n; ++i) {
+ var el = allElements[i];
+ if (el.id) { allIds.push(el.id); }
+}
+window.alert(allIds);
