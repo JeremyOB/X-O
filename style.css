@@ -21,7 +21,7 @@ p {
 	text-align: center;
 }
 
-.box-style {
+.box {
 
 	height: 33.3%;
 	width: 33.3%; 
@@ -29,13 +29,13 @@ p {
 	outline: 1px solid;
 }
 
-.box-style:hover {
+.box:hover {
 
 	background-color: #999999;
 }
 
 
-.empty_1:before{
+.empty:before{
 content: "-";
   }
 
@@ -46,4 +46,5 @@ content: "X";
 
   .O:before {
 content: "O";
+
   }
