@@ -11,8 +11,14 @@ p {
   text-align: center;
 
 }
+#newGame{
+
+	text-align: center;
+	float: center;
+	
+}
 /*Box Style*/
-.box-container {
+#box-container {
 
 	margin: 0 auto;
 	width: 500px;
